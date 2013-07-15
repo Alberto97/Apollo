@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Apollo.Theme.Dark" parent="@*android:style/Theme.Holo">
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+    <style name="Apollo.Theme.Light" parent="@*android:style/Theme.Holo.Light">
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+    <style name="Theme.Transparent" parent="@*android:style/Theme.Holo.NoActionBar">
+        <item name="android:windowBackground">@color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+    <style name="NotificationText">
+        <item name="android:ellipsize">end</item>
+        <item name="android:fadingEdge">horizontal</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="NotificationAction">
+        <item name="android:gravity">right|center</item>
+        <item name="android:background">?android:selectableItemBackground</item>
+        <item name="android:padding">@dimen/notification_action_padding</item>
+        <item name="android:layout_width">@dimen/notification_action_width</item>
+        <item name="android:layout_height">@dimen/notification_action_height</item>
+        <item name="android:scaleType">fitCenter</item>
+    </style>
+    <style name="NotificationAction.Previous" parent="@style/NotificationAction">
+        <item name="android:visibility">gone</item>
+        <item name="android:src">@drawable/ntf_btn_playback_previous</item>
+        <item name="android:contentDescription">@string/accessibility_prev</item>
+    </style>
+    <style name="NotificationAction.Play" parent="@style/NotificationAction">
+        <item name="android:src">@drawable/ntf_btn_playback_play</item>
+        <item name="android:contentDescription">@string/accessibility_play</item>
+    </style>
+    <style name="NotificationAction.Next" parent="@style/NotificationAction">
+        <item name="android:src">@drawable/ntf_btn_playback_next</item>
+        <item name="android:contentDescription">@string/accessibility_next</item>
+    </style>
+    <style name="NotificationAction.Collapse" parent="@style/NotificationAction">
+        <item name="android:src">@drawable/btn_notification_collapse</item>
+    </style>
+    <style name="BottomActionBarText">
+        <item name="android:textSize">@dimen/text_size_extra_micro</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:gravity">top|left|center</item>
+        <item name="android:paddingLeft">5.0dip</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+    <style name="BottomActionBarLineOne" parent="@style/BottomActionBarText">
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="BottomActionBarLineTwo" parent="@style/BottomActionBarText" />
+    <style name="BottomActionBarItem">
+        <item name="android:gravity">right|center</item>
+        <item name="android:paddingLeft">@dimen/bottom_action_bar_item_padding_left</item>
+        <item name="android:paddingRight">@dimen/bottom_action_bar_item_padding_right</item>
+        <item name="android:layout_width">0.0dip</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:scaleType">centerInside</item>
+        <item name="android:layout_weight">1.0</item>
+    </style>
+    <style name="BottomActionBarItem.Previous" parent="@style/BottomActionBarItem">
+        <item name="android:contentDescription">@string/accessibility_prev</item>
+    </style>
+    <style name="BottomActionBarItem.Next" parent="@style/BottomActionBarItem">
+        <item name="android:contentDescription">@string/accessibility_next</item>
+    </style>
+    <style name="BottomActionBarItem.Play" parent="@style/BottomActionBarItem">
+        <item name="android:contentDescription">@string/accessibility_play</item>
+    </style>
+    <style name="BottomActionBarItem.Shuffle" parent="@style/BottomActionBarItem">
+        <item name="android:contentDescription">@string/accessibility_shuffle</item>
+    </style>
+    <style name="BottomActionBarItem.Repeat" parent="@style/BottomActionBarItem">
+        <item name="android:contentDescription">@string/accessibility_repeat</item>
+    </style>
+    <style name="Theme.PageIndicatorDefaults" parent="@*android:style/Theme">
+        <item name="vpiIconPageIndicatorStyle">@style/Widget.IconPageIndicator</item>
+        <item name="vpiTabPageIndicatorStyle">@style/Widget.TabPageIndicator</item>
+    </style>
+    <style name="Widget" />
+    <style name="Widget.TabPageIndicator" parent="@style/Widget">
+        <item name="android:textAppearance">@style/TextAppearance.TabPageIndicator</item>
+        <item name="android:textSize">12.0sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:paddingLeft">22.0dip</item>
+        <item name="android:paddingTop">12.0dip</item>
+        <item name="android:paddingRight">22.0dip</item>
+        <item name="android:paddingBottom">12.0dip</item>
+        <item name="android:maxLines">1</item>
+    </style>
+    <style name="TextAppearance.TabPageIndicator" parent="@style/Widget">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/vpi__dark_theme</item>
+    </style>
+    <style name="Widget.IconPageIndicator" parent="@style/Widget">
+        <item name="android:layout_marginLeft">6.0dip</item>
+        <item name="android:layout_marginRight">6.0dip</item>
+    </style>
+</resources>

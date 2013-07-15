@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="Nartists">
+        <item quantity="other">%d artister</item>
+        <item quantity="one">1 artist</item>
+    </plurals>
+    <plurals name="Nalbums">
+        <item quantity="other">%d album</item>
+        <item quantity="one">1 album</item>
+    </plurals>
+    <plurals name="Nsongs">
+        <item quantity="other">%d sanger</item>
+        <item quantity="one">1 sang</item>
+    </plurals>
+    <plurals name="Ngenres">
+        <item quantity="other">%d sjangre</item>
+        <item quantity="one">1 sjanger</item>
+    </plurals>
+    <plurals name="NNNtrackstoplaylist">
+        <item quantity="other">%d sanger lagt til i spillelisten.</item>
+        <item quantity="one">1 sang lagt til i spillelisten.</item>
+    </plurals>
+    <plurals name="NNNtrackstoqueue">
+        <item quantity="other">%d sanger lagt til i køen.</item>
+        <item quantity="one">1 sang lagt til i køen.</item>
+    </plurals>
+    <plurals name="NNNtrackstofavorites">
+        <item quantity="other">%d sanger lagt til som favoritt.</item>
+        <item quantity="one">1 sang lagt til som favoritt.</item>
+    </plurals>
+    <plurals name="NNNtracksdeleted">
+        <item quantity="other">%d sanger ble slettet.</item>
+        <item quantity="one">1 sang ble slettet.</item>
+    </plurals>
+</resources>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="Nartists">
+        <item quantity="other">%d 個のアーティスト</item>
+        <item quantity="one">1 個のアーティスト</item>
+    </plurals>
+    <plurals name="Nalbums">
+        <item quantity="other">%d 個のアルバム</item>
+        <item quantity="one">1 個のアルバム</item>
+    </plurals>
+    <plurals name="Nsongs">
+        <item quantity="other">%d 個の曲</item>
+        <item quantity="one">1 個の曲</item>
+    </plurals>
+    <plurals name="Ngenres">
+        <item quantity="other">%d 個のジャンル</item>
+        <item quantity="one">1 個のジャンル</item>
+    </plurals>
+    <plurals name="NNNtrackstoplaylist">
+        <item quantity="other">%d 個の曲をプレイリストに追加しました。</item>
+        <item quantity="one">1 個の曲をプレイリストに追加しました。</item>
+    </plurals>
+    <plurals name="NNNtrackstoqueue">
+        <item quantity="other">%d 個の曲をキューに追加しました。</item>
+        <item quantity="one">1 個の曲をキューに追加しました。</item>
+    </plurals>
+    <plurals name="NNNtrackstofavorites">
+        <item quantity="other">%d 個の曲をお気に入りに追加しました。</item>
+        <item quantity="one">1 個の曲をお気に入りに追加しました。</item>
+    </plurals>
+    <plurals name="NNNtracksdeleted">
+        <item quantity="other">%d 個の曲を削除しました。</item>
+        <item quantity="one">1 個の曲を削除しました。</item>
+    </plurals>
+</resources>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.andrew.apollo.widgets.theme.ThemeableFrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res/com.andrew.apollo">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <View android:id="@id/audio_player_footer" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignTop="@*android:id/progress" android:layout_alignParentBottom="true" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/audio_player_header" android:layout_width="fill_parent" android:layout_height="@dimen/audio_player_header_height" android:baselineAligned="false" android:layout_alignParentTop="true">
+            <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:paddingLeft="@dimen/audio_player_header_padding_left" android:paddingRight="@dimen/audio_player_header_padding_right" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <com.andrew.apollo.widgets.theme.ThemeableTextView android:textSize="@dimen/text_size_medium" android:textStyle="bold" android:ellipsize="end" android:id="@id/audio_player_track_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" app:themeResource="audio_player_line_one" />
+                <com.andrew.apollo.widgets.theme.ThemeableTextView android:textSize="@dimen/text_size_medium" android:ellipsize="end" android:id="@id/audio_player_artist_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" app:themeResource="audio_player_line_two" />
+            </LinearLayout>
+            <FrameLayout android:id="@id/audio_player_switch" android:padding="@dimen/audio_player_switch_padding" android:focusable="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="fill_parent">
+                <com.andrew.apollo.widgets.SquareImageView android:layout_gravity="center" android:id="@id/audio_player_switch_queue" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@null" />
+                <com.andrew.apollo.widgets.SquareImageView android:id="@id/audio_player_switch_album_art" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+            </FrameLayout>
+        </LinearLayout>
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_above="@*android:id/progress" android:layout_below="@id/audio_player_header" android:layout_alignParentLeft="true" android:layout_alignParentRight="true">
+            <com.andrew.apollo.widgets.SquareImageView android:id="@id/audio_player_album_art" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitXY" android:layout_centerHorizontal="true" />
+            <View android:id="@id/audio_player_footer_two" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/audio_player_album_art" android:layout_alignParentBottom="true" />
+            <FrameLayout android:id="@id/audio_player_pager_container" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignBottom="@id/audio_player_album_art">
+                <android.support.v4.view.ViewPager android:id="@id/audio_player_pager" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            </FrameLayout>
+        </RelativeLayout>
+        <com.andrew.apollo.widgets.theme.ThemeableTextView android:textSize="@dimen/text_size_micro" android:gravity="center" android:id="@id/audio_player_current_time" android:layout_width="@dimen/audio_player_time_width" android:layout_height="wrap_content" android:layout_alignTop="@*android:id/progress" android:layout_alignBottom="@*android:id/progress" android:layout_alignParentLeft="true" app:themeResource="audio_player_current_time" />
+        <com.andrew.apollo.widgets.theme.ThemeableTextView android:textSize="@dimen/text_size_micro" android:gravity="center" android:id="@id/audio_player_total_time" android:layout_width="@dimen/audio_player_time_width" android:layout_height="wrap_content" android:layout_alignTop="@*android:id/progress" android:layout_alignBottom="@*android:id/progress" android:layout_alignParentRight="true" app:themeResource="audio_player_total_time" />
+        <com.andrew.apollo.widgets.theme.ThemeableSeekBar android:id="@*android:id/progress" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/audio_player_seek_bar_margin_bottom" android:max="1000" android:thumb="@null" android:layout_toLeftOf="@id/audio_player_total_time" android:layout_toRightOf="@id/audio_player_current_time" android:layout_above="@id/audio_player_controlss" />
+        <LinearLayout android:gravity="center" android:id="@id/audio_player_controlss" android:layout_width="fill_parent" android:layout_height="wrap_content" android:baselineAligned="false" android:layout_alignParentLeft="true" android:layout_alignParentRight="true" android:layout_alignParentBottom="true">
+            <include layout="@layout/audio_player_controls" />
+        </LinearLayout>
+    </RelativeLayout>
+    <include layout="@layout/colorstrip" />
+</com.andrew.apollo.widgets.theme.ThemeableFrameLayout>

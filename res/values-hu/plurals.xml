@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="Nartists">
+        <item quantity="other">%d előadó</item>
+    </plurals>
+    <plurals name="Nalbums">
+        <item quantity="other">%d album</item>
+    </plurals>
+    <plurals name="Nsongs">
+        <item quantity="other">%d dal</item>
+    </plurals>
+    <plurals name="Ngenres">
+        <item quantity="other">%d műfaj</item>
+    </plurals>
+    <plurals name="NNNtrackstoplaylist">
+        <item quantity="other">%d dal hozzáadva a lejátszási listához.</item>
+    </plurals>
+    <plurals name="NNNtrackstoqueue">
+        <item quantity="other">%d dal hozzáadva a lejátszási sorhoz.</item>
+    </plurals>
+    <plurals name="NNNtrackstofavorites">
+        <item quantity="other">%d dal hozzáadva a kedvencekhez.</item>
+    </plurals>
+    <plurals name="NNNtracksdeleted">
+        <item quantity="other">%d dal törölve.</item>
+    </plurals>
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/grid_base_container" android:padding="@dimen/list_preferred_item_padding" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/text_size_large" android:textStyle="bold" android:textColor="@color/holo_blue_light" android:layout_gravity="center" android:id="@id/empty" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <GridView android:scrollbarStyle="outsideOverlay" android:id="@id/grid_base" android:scrollbars="vertical" android:fadingEdge="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:drawSelectorOnTop="true" android:cacheColorHint="@color/transparent" android:horizontalSpacing="@dimen/grid_item_spacing" android:verticalSpacing="@dimen/grid_item_spacing" android:fastScrollEnabled="true" />
+</FrameLayout>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.andrew.apollo.widgets.theme.BottomActionBar android:layout_gravity="bottom" android:id="@id/bottom_action_bar_parent" android:layout_width="fill_parent" android:layout_height="@dimen/bottom_action_bar_height"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res/com.andrew.apollo">
+    <include android:id="@id/colorstrip" layout="@layout/colorstrip" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/bottom_action_bar" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/colorstrip">
+        <com.andrew.apollo.widgets.SquareImageView android:layout_gravity="left|center" android:id="@id/bottom_action_bar_album_art" android:background="@drawable/default_artwork" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <RelativeLayout android:layout_gravity="center_vertical" android:id="@id/bottom_action_bar_info_container" android:paddingLeft="@dimen/bottom_action_bar_info_padding_left" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <com.andrew.apollo.widgets.theme.ThemeableTextView android:id="@id/bottom_action_bar_line_one" app:themeResource="bab_line_one" style="@style/BottomActionBarLineOne" />
+            <com.andrew.apollo.widgets.theme.ThemeableTextView android:id="@id/bottom_action_bar_line_two" android:layout_below="@id/bottom_action_bar_line_one" app:themeResource="bab_line_two" style="@style/BottomActionBarLineTwo" />
+        </RelativeLayout>
+        <HorizontalScrollView android:scrollbars="none" android:layout_width="@dimen/bottom_action_bar_button_container_width" android:layout_height="fill_parent">
+            <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="fill_parent">
+                <com.andrew.apollo.widgets.RepeatingImageButton android:id="@id/action_button_previous" style="@style/BottomActionBarItem.Previous" />
+                <com.andrew.apollo.widgets.PlayPauseButton android:id="@id/action_button_play" style="@style/BottomActionBarItem.Play" />
+                <com.andrew.apollo.widgets.RepeatingImageButton android:id="@id/action_button_next" style="@style/BottomActionBarItem.Next" />
+                <com.andrew.apollo.widgets.ShuffleButton android:id="@id/action_button_shuffle" style="@style/BottomActionBarItem.Shuffle" />
+                <com.andrew.apollo.widgets.RepeatButton android:id="@id/action_button_repeat" style="@style/BottomActionBarItem.Repeat" />
+            </LinearLayout>
+        </HorizontalScrollView>
+    </LinearLayout>
+</com.andrew.apollo.widgets.theme.BottomActionBar>

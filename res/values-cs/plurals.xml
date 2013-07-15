@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="Nartists">
+        <item quantity="other">%d umělců</item>
+        <item quantity="one">1 umělec</item>
+        <item quantity="few">%d umělci</item>
+    </plurals>
+    <plurals name="Nalbums">
+        <item quantity="other">%d alb</item>
+        <item quantity="one">1 album</item>
+        <item quantity="few">%d alba</item>
+    </plurals>
+    <plurals name="Nsongs">
+        <item quantity="other">%d skladeb</item>
+        <item quantity="one">1 skladba</item>
+        <item quantity="few">%d skladby</item>
+    </plurals>
+    <plurals name="Ngenres">
+        <item quantity="other">%d žánrů</item>
+        <item quantity="one">1 žánr</item>
+        <item quantity="few">%d žánry</item>
+    </plurals>
+    <plurals name="NNNtrackstoplaylist">
+        <item quantity="other">Do seznamu skladeb bylo přidáno %d skladeb.</item>
+        <item quantity="one">Do seznamu skladeb byla přidána jedna skladba.</item>
+        <item quantity="few">Do seznamu skladeb byly přidány %d skladby.</item>
+    </plurals>
+    <plurals name="NNNtrackstoqueue">
+        <item quantity="other">Do fronty bylo přidáno %d skladeb.</item>
+        <item quantity="one">Do fronty byla přidána jedna skladba.</item>
+        <item quantity="few">Do fronty byly přidány %d skladby.</item>
+    </plurals>
+    <plurals name="NNNtrackstofavorites">
+        <item quantity="other">Do oblíbených bylo přidáno %d skladeb.</item>
+        <item quantity="one">Do oblíbených byla přidána jedna skladba.</item>
+        <item quantity="few">Do oblíbených byly přidány %d skladby.</item>
+    </plurals>
+    <plurals name="NNNtracksdeleted">
+        <item quantity="other">Smazáno %d skladeb.</item>
+        <item quantity="one">Smazána jedna skladba.</item>
+        <item quantity="few">Smazány %d skladby.</item>
+    </plurals>
+</resources>

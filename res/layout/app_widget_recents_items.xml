@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/app_widget_recents_items" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/app_widget_recents_base_image" android:layout_width="@dimen/item_normal_height" android:layout_height="@dimen/item_normal_height" android:scaleType="fitXY" />
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:paddingLeft="@dimen/list_preferred_item_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <TextView android:textSize="@dimen/text_size_medium" android:textStyle="bold" android:id="@id/app_widget_recents_line_one" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" />
+        <TextView android:textSize="@dimen/text_size_small" android:id="@id/app_widget_recents_line_two" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/list_item_line_two_margin_top" android:singleLine="true" />
+    </LinearLayout>
+</LinearLayout>

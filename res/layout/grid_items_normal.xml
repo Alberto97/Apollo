@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res/com.andrew.apollo">
+    <include layout="@layout/square_image_view" />
+    <RelativeLayout android:gravity="center_vertical" android:background="@color/transparent_black" android:paddingLeft="@dimen/grid_item_padding_left" android:layout_width="fill_parent" android:layout_height="@dimen/item_normal_height" android:layout_alignParentBottom="true">
+        <com.andrew.apollo.widgets.theme.ThemeableTextView android:textSize="@dimen/text_size_medium" android:textStyle="bold" android:textColor="@color/white" android:id="@id/line_one" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="2" android:layout_alignParentTop="true" app:themeResource="@null" />
+        <com.andrew.apollo.widgets.theme.ThemeableTextView android:textSize="@dimen/text_size_small" android:textColor="@color/transparent_white" android:id="@id/line_two" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" android:layout_below="@id/line_one" app:themeResource="@null" />
+    </RelativeLayout>
+</RelativeLayout>

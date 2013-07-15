@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="Nartists">
+        <item quantity="other">%d καλλιτέχνες</item>
+        <item quantity="one">1 καλλιτέχνης</item>
+    </plurals>
+    <plurals name="Nalbums">
+        <item quantity="other">%d άλμπουμ</item>
+        <item quantity="one">1 άλμπουμ</item>
+    </plurals>
+    <plurals name="Nsongs">
+        <item quantity="other">%d τραγούδια</item>
+        <item quantity="one">1 τραγούδι</item>
+    </plurals>
+    <plurals name="Ngenres">
+        <item quantity="other">%d είδη</item>
+        <item quantity="one">1 είδος</item>
+    </plurals>
+    <plurals name="NNNtrackstoplaylist">
+        <item quantity="other">%d τραγούδια προστέθηκαν στη λίστα αναπαραγωγής.</item>
+        <item quantity="one">1 τραγούδι προστέθηκε στη λίστα αναπαραγωγής.</item>
+    </plurals>
+    <plurals name="NNNtrackstoqueue">
+        <item quantity="other">%d τραγούδια προστέθηκαν στην ουρά.</item>
+        <item quantity="one">1 τραγούδι προστέθηκε στην ουρά.</item>
+    </plurals>
+    <plurals name="NNNtrackstofavorites">
+        <item quantity="other">%d τραγούδια προστέθηκαν στα αγαπημένα.</item>
+        <item quantity="one">1 τραγούδι προστέθηκε στα αγαπημένα.</item>
+    </plurals>
+    <plurals name="NNNtracksdeleted">
+        <item quantity="other">%d τραγούδια διαγράφηκαν.</item>
+        <item quantity="one">1 τραγούδι διεγράφη.</item>
+    </plurals>
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/list_base_container" android:paddingTop="@dimen/list_preferred_item_padding" android:paddingBottom="@dimen/list_preferred_item_padding" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/text_size_large" android:textStyle="bold" android:textColor="@color/holo_blue_light" android:layout_gravity="center" android:id="@id/empty" android:padding="@dimen/list_preferred_item_padding" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <com.andrew.apollo.dragdrop.DragSortListView android:id="@id/list_base" android:paddingLeft="@dimen/fast_scroll_padding_left" android:paddingRight="@dimen/fast_scroll_padding_right" android:fadingEdge="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:drawSelectorOnTop="false" android:cacheColorHint="@color/transparent" android:fastScrollEnabled="true" android:fastScrollAlwaysVisible="true" />
+</FrameLayout>

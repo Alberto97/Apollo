@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/settings_ui_category">
+        <Preference android:title="@string/settings_color_scheme_title" android:key="color_scheme" android:summary="@string/settings_color_scheme_summary" />
+        <Preference android:title="@string/settings_theme_chooser_title" android:key="theme_chooser" />
+        <CheckBoxPreference android:title="@string/settings_use_lockscreen_controls" android:key="lockscreen_controls" android:defaultValue="true" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/settings_data_category">
+        <CheckBoxPreference android:title="@string/settings_download_only_on_wifi_title" android:key="only_on_wifi" android:summary="@string/settings_download_only_on_wifi_summary" android:defaultValue="true" />
+        <CheckBoxPreference android:title="@string/settings_download_missing_artwork_title" android:key="album_images" android:defaultValue="true" />
+        <CheckBoxPreference android:title="@string/settings_download_artist_images_title" android:key="artist_images" android:defaultValue="true" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/settings_storage_category">
+        <Preference android:title="@string/settings_delete_cache_title" android:key="delete_cache" android:summary="@string/settings_delete_cache_summary" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/settings_about_category">
+        <PreferenceScreen android:title="@string/settings_about_apollo">
+            <PreferenceCategory android:title="@string/settings_about_category">
+                <Preference android:title="@string/settings_author_title" android:summary="@string/settings_self_title" />
+                <Preference android:title="@string/settings_version_title" android:key="version" />
+                <Preference android:title="@string/settings_open_source_licenses" android:key="open_source" />
+            </PreferenceCategory>
+            <PreferenceCategory android:title="@string/settings_special_thanks">
+                <Preference android:title="@string/settings_lopez_title" android:summary="@string/settings_lopez_summary" />
+                <Preference android:title="@string/settings_cyanogenmod_title" />
+            </PreferenceCategory>
+        </PreferenceScreen>
+    </PreferenceCategory>
+</PreferenceScreen>

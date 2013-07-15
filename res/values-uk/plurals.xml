@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="Nartists">
+        <item quantity="one">1 виконавець</item>
+        <item quantity="few">%d виконавця</item>
+        <item quantity="many">%d виконавців</item>
+    </plurals>
+    <plurals name="Nalbums">
+        <item quantity="one">1 альбом</item>
+        <item quantity="few">%d альбоми</item>
+        <item quantity="many">%d альбоми</item>
+    </plurals>
+    <plurals name="Nsongs">
+        <item quantity="one">1 пісня</item>
+        <item quantity="few">%d пісні</item>
+        <item quantity="many">%d пісень</item>
+    </plurals>
+    <plurals name="Ngenres">
+        <item quantity="one">1 жанр</item>
+        <item quantity="few">%d жанри</item>
+        <item quantity="many">%d жанрів</item>
+    </plurals>
+    <plurals name="NNNtrackstoplaylist">
+        <item quantity="one">1 композиція додана в список</item>
+        <item quantity="few">%d композиції додано в список</item>
+        <item quantity="many">%d композицій додано в список</item>
+    </plurals>
+    <plurals name="NNNtrackstoqueue">
+        <item quantity="one">1 композиція додана в чергу</item>
+        <item quantity="few">%d композиції додано в чергу</item>
+        <item quantity="many">%d композицій додано в чергу</item>
+    </plurals>
+    <plurals name="NNNtrackstofavorites">
+        <item quantity="one">1 композиція додана в улюблене</item>
+        <item quantity="few">%d композиції додано в улюблене</item>
+        <item quantity="many">%d композицій додано в улюблене</item>
+    </plurals>
+    <plurals name="NNNtracksdeleted">
+        <item quantity="one">1 композиція видалена</item>
+        <item quantity="few">%d композиції видалено</item>
+        <item quantity="many">%d композицій видалено</item>
+    </plurals>
+</resources>

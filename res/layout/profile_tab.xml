@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<view android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" class="com.andrew.apollo.widgets.CarouselTab"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.andrew.apollo.widgets.LayoutSuppressingImageView android:id="@id/profile_tab_photo" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" android:contentDescription="@null" />
+        <com.andrew.apollo.widgets.SquareImageView android:id="@id/profile_tab_album_art" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitXY" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" android:contentDescription="@null" />
+        <View android:id="@id/profile_tab_photo_overlay" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+        <View android:id="@id/profile_tab_label_background" android:background="@color/transparent_black" android:layout_width="fill_parent" android:layout_height="@dimen/profile_carousel_label_height" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true" />
+        <com.andrew.apollo.widgets.theme.Colorstrip android:id="@id/profile_tab_colorstrip" android:layout_width="fill_parent" android:layout_height="@dimen/profile_indicator_height" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true" />
+        <View android:id="@id/profile_tab_alpha_overlay" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="@dimen/profile_carousel_label_height" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+        <TextView android:textSize="@dimen/text_size_large" android:textColor="@color/white" android:gravity="left|center" android:id="@id/profile_tab_label" android:paddingLeft="@dimen/profile_label_padding" android:paddingRight="@dimen/profile_label_padding" android:layout_width="fill_parent" android:layout_height="@dimen/profile_carousel_label_height" android:singleLine="true" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+</view>

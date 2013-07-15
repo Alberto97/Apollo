@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="Nartists">
+        <item quantity="other">Исполнителей: %d</item>
+        <item quantity="one">Исполнителей: %d</item>
+    </plurals>
+    <plurals name="Nalbums">
+        <item quantity="other">Альбомов: %d</item>
+        <item quantity="one">Альбомов: %d</item>
+    </plurals>
+    <plurals name="Nsongs">
+        <item quantity="other">Треков: %d</item>
+        <item quantity="one">Треков: %d</item>
+    </plurals>
+    <plurals name="Ngenres">
+        <item quantity="other">Жанров: %d</item>
+        <item quantity="one">Жанров: %d</item>
+    </plurals>
+    <plurals name="NNNtrackstoplaylist">
+        <item quantity="other">Добавлено треков в плейлист: %d</item>
+        <item quantity="one">Добавлено треков в плейлист: %d</item>
+    </plurals>
+    <plurals name="NNNtrackstoqueue">
+        <item quantity="other">Добавлено треков в очередь: %d</item>
+        <item quantity="one">Добавлено треков в очередь: %d</item>
+    </plurals>
+    <plurals name="NNNtrackstofavorites">
+        <item quantity="other">Добавлено треков в избранное: %d</item>
+        <item quantity="one">Добавлено треков в избранное: %d</item>
+    </plurals>
+    <plurals name="NNNtracksdeleted">
+        <item quantity="other">Удалено треков: %d</item>
+        <item quantity="one">Удалено треков: %d</item>
+    </plurals>
+</resources>

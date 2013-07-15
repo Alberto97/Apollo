@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="Nartists">
+        <item quantity="other">%d esittäjää</item>
+        <item quantity="one">1 esittäjä</item>
+    </plurals>
+    <plurals name="Nalbums">
+        <item quantity="other">%d albumia</item>
+        <item quantity="one">1 albumi</item>
+    </plurals>
+    <plurals name="Nsongs">
+        <item quantity="other">%d kappaletta</item>
+        <item quantity="one">1 kappale</item>
+    </plurals>
+    <plurals name="Ngenres">
+        <item quantity="other">%d tyylilajia</item>
+        <item quantity="one">1 tyylilaji</item>
+    </plurals>
+    <plurals name="NNNtrackstoplaylist">
+        <item quantity="other">%d kappaletta lisätty soittolistalle.</item>
+        <item quantity="one">1 kappale lisätty soittolistalle.</item>
+    </plurals>
+    <plurals name="NNNtrackstoqueue">
+        <item quantity="other">%d kappaletta lisätty jonoon.</item>
+        <item quantity="one">1 kappale lisätty jonoon.</item>
+    </plurals>
+    <plurals name="NNNtrackstofavorites">
+        <item quantity="other">%d kappaletta lisätty suosikkeihin.</item>
+        <item quantity="one">1 kappale lisätty suosikkeihin.</item>
+    </plurals>
+    <plurals name="NNNtracksdeleted">
+        <item quantity="other">%d kappaletta poistettiin.</item>
+        <item quantity="one">1 kappale poistettiin.</item>
+    </plurals>
+</resources>

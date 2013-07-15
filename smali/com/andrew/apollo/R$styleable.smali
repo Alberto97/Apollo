@@ -1,0 +1,174 @@
+.class public final Lcom/andrew/apollo/R$styleable;
+.super Ljava/lang/Object;
+.source "R.java"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/andrew/apollo/R;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x19
+    name = "styleable"
+.end annotation
+
+
+# static fields
+.field public static final CirclePageIndicator:[I
+
+.field public static final LinePageIndicator:[I
+
+.field public static final ThemeableTextView:[I
+
+.field public static final TitlePageIndicator:[I
+
+.field public static final UnderlinePageIndicator:[I
+
+.field public static final ViewPagerIndicator:[I
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .locals 3
+
+    .prologue
+    .line 1189
+    const/16 v0, 0x9
+
+    new-array v0, v0, [I
+
+    fill-array-data v0, :array_0
+
+    sput-object v0, Lcom/andrew/apollo/R$styleable;->CirclePageIndicator:[I
+
+    .line 1351
+    const/4 v0, 0x7
+
+    new-array v0, v0, [I
+
+    fill-array-data v0, :array_1
+
+    sput-object v0, Lcom/andrew/apollo/R$styleable;->LinePageIndicator:[I
+
+    .line 1477
+    const/4 v0, 0x1
+
+    new-array v0, v0, [I
+
+    const/4 v1, 0x0
+
+    const/high16 v2, 0x7f01
+
+    aput v2, v0, v1
+
+    sput-object v0, Lcom/andrew/apollo/R$styleable;->ThemeableTextView:[I
+
+    .line 1534
+    const/16 v0, 0xf
+
+    new-array v0, v0, [I
+
+    fill-array-data v0, :array_2
+
+    sput-object v0, Lcom/andrew/apollo/R$styleable;->TitlePageIndicator:[I
+
+    .line 1797
+    const/4 v0, 0x5
+
+    new-array v0, v0, [I
+
+    fill-array-data v0, :array_3
+
+    sput-object v0, Lcom/andrew/apollo/R$styleable;->UnderlinePageIndicator:[I
+
+    .line 1894
+    const/4 v0, 0x6
+
+    new-array v0, v0, [I
+
+    fill-array-data v0, :array_4
+
+    sput-object v0, Lcom/andrew/apollo/R$styleable;->ViewPagerIndicator:[I
+
+    return-void
+
+    .line 1189
+    nop
+
+    :array_0
+    .array-data 0x4
+        0xc4t 0x0t 0x1t 0x1t
+        0xd4t 0x0t 0x1t 0x1t
+        0x7t 0x0t 0x1t 0x7ft
+        0x9t 0x0t 0x1t 0x7ft
+        0xbt 0x0t 0x1t 0x7ft
+        0xct 0x0t 0x1t 0x7ft
+        0xdt 0x0t 0x1t 0x7ft
+        0xet 0x0t 0x1t 0x7ft
+        0xft 0x0t 0x1t 0x7ft
+    .end array-data
+
+    .line 1351
+    :array_1
+    .array-data 0x4
+        0xd4t 0x0t 0x1t 0x1t
+        0x7t 0x0t 0x1t 0x7ft
+        0x8t 0x0t 0x1t 0x7ft
+        0x9t 0x0t 0x1t 0x7ft
+        0xat 0x0t 0x1t 0x7ft
+        0x10t 0x0t 0x1t 0x7ft
+        0x11t 0x0t 0x1t 0x7ft
+    .end array-data
+
+    .line 1534
+    :array_2
+    .array-data 0x4
+        0x95t 0x0t 0x1t 0x1t
+        0x98t 0x0t 0x1t 0x1t
+        0xd4t 0x0t 0x1t 0x1t
+        0x8t 0x0t 0x1t 0x7ft
+        0x12t 0x0t 0x1t 0x7ft
+        0x13t 0x0t 0x1t 0x7ft
+        0x14t 0x0t 0x1t 0x7ft
+        0x15t 0x0t 0x1t 0x7ft
+        0x16t 0x0t 0x1t 0x7ft
+        0x17t 0x0t 0x1t 0x7ft
+        0x18t 0x0t 0x1t 0x7ft
+        0x19t 0x0t 0x1t 0x7ft
+        0x1at 0x0t 0x1t 0x7ft
+        0x1bt 0x0t 0x1t 0x7ft
+        0x1ct 0x0t 0x1t 0x7ft
+    .end array-data
+
+    .line 1797
+    :array_3
+    .array-data 0x4
+        0xd4t 0x0t 0x1t 0x1t
+        0x8t 0x0t 0x1t 0x7ft
+        0x1dt 0x0t 0x1t 0x7ft
+        0x1et 0x0t 0x1t 0x7ft
+        0x1ft 0x0t 0x1t 0x7ft
+    .end array-data
+
+    .line 1894
+    :array_4
+    .array-data 0x4
+        0x1t 0x0t 0x1t 0x7ft
+        0x2t 0x0t 0x1t 0x7ft
+        0x3t 0x0t 0x1t 0x7ft
+        0x4t 0x0t 0x1t 0x7ft
+        0x5t 0x0t 0x1t 0x7ft
+        0x6t 0x0t 0x1t 0x7ft
+    .end array-data
+.end method
+
+.method public constructor <init>()V
+    .locals 0
+
+    .prologue
+    .line 1162
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method

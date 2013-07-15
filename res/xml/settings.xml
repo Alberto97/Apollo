@@ -24,6 +24,7 @@
             <PreferenceCategory android:title="@string/settings_special_thanks">
                 <Preference android:title="@string/settings_lopez_title" android:summary="@string/settings_lopez_summary" />
                 <Preference android:title="@string/settings_cyanogenmod_title" />
+				<Preference android:title="@string/settings_alberto97_title" android:summary="@string/settings_alberto97_summary" />
             </PreferenceCategory>
         </PreferenceScreen>
     </PreferenceCategory>

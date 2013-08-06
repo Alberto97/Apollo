@@ -116,6 +116,6 @@
     <string name="empty_search">La ricerca non ha prodotto risultati</string>
     <string name="empty_favorite">Le canzoni contrassegnate come preferite verranno mostrate qui.</string>
     <string name="empty_recent">"Gli album che hai ascoltato verranno mostrati qui. Provate a sentire un po' di musica."</string>
-	<string name ="settings_alberto97_title">Alberto97</string>
-	<string name ="settings_alberto97_summary">Tema Holo Light Pre-applicato</string>
+    <string name="settings_alberto97_title">Alberto97</string>
+    <string name="settings_alberto97_summary">Tema Holo Light Pre-applicato + Player notifiche e Widget Temati</string>
 </resources>

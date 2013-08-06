@@ -106,4 +106,10 @@
         <item name="android:layout_marginLeft">6.0dip</item>
         <item name="android:layout_marginRight">6.0dip</item>
     </style>
+	<style name="TextAppearance.StatusBar.EventContent.Title" parent="@*android:style/TextAppearance.StatusBar.EventContent">
+        <item name="android:textSize">@*android:dimen/notification_title_text_size</item>
+        <item name="android:textStyle">bold</item>
+		<item name="android:textColor">@color/holo_blue_light</item>
+		<item name="android:fontFamily">sans-serif-light</item>
+    </style>
 </resources>

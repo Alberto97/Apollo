@@ -60,4 +60,5 @@
     <color name="colorstrip">#ff33b5e5</color>
     <color name="holo_selector">#ff33b5e5</color>
     <color name="lyrics">#ff000000</color>
+	<color name="widget2">#ff999999</color>
 </resources>
